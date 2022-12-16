@@ -6,4 +6,7 @@ RAPN (Reconhecimento Automático de Placas Numéricas) é uma tecnologia que usa
 
 # Como testar?
 
-Carregue o projeto no MATLAB e corre o ficheiro ```Leitura_placa.m```
+Carregue o projeto no MATLAB e corre o ficheiro `Leitura_placa.m`
+As imagens das placas podem ser carregadas para a pasta ```/Matriculas```. Para alterar basta mudar o nome do ficheiro na linha 4 do ficheiro `Leitura_placa.m`:
+
+`im = imread('Matriculas/matricula.jpg');`
